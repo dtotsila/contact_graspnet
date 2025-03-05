@@ -9,6 +9,7 @@ dependencies:
   - cudnn
   - pip 
   - pip:
+    - numpy==1.21.2
     - tensorflow==2.5 # cannot increase minor due to pointnet build errors, 2.5 requires python<=3.9
     - opencv-python-headless==4.9.0.80
     - pyyaml==6.0.1
